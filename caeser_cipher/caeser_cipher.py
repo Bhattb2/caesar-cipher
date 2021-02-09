@@ -52,7 +52,7 @@ def break_code(text):
         for word in string_list:
             if word in word_list:
                 counter += 1
-            elif word[-1] == "5":
+            elif word[-1] == "s":
                 l = len(word)
                 if word[0:(l-1)] in word_list:
                     counter += 1
